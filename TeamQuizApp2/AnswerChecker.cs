@@ -9,6 +9,8 @@ namespace TeamQuizApp2
         public bool CheckAnswer(Question q, int selectedIndex)
         {
             return q.CorrectIndex == selectedIndex;
+
+            //
         }
     }
 }
